@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{fragments/main_layout}"
+      xmlns:th="https://www.thymeleaf.org">
+</html>
+<head>
+    <meta charset="UTF-8">
+    <title>Log out</title>
+</head>
+<body>
+        session_start();
+        session_destroy();
+        header("login");
+</body>

@@ -1,0 +1,853 @@
+<!DOCTYPE HTML>
+<html xmlns:layout="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{fragments/main_layout}"
+      xmlns:th="https://www.thymeleaf.org">
+</html>
+
+<head>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="home.css" type="text/css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+    <body id="myPage"  data-spy="scroll" data-target=".navbar" data-offset="60">
+
+    <div layout:fragment="content" class="container">
+
+    <div class="jumbotron">
+        <div class="container-fluid">
+            <div class="header-content-inner">
+                <h1>Welcome to SE Restaurant</h1>
+            </div>
+        </div>
+    </div>
+
+    <section class="bg-about bg-section" id="about">
+        <div class="container-fluid">
+            <h1 class="container-h1">บรรยาย</h1>
+            <div class="row">
+                <div class="col-sm-5">
+
+                    <div class="hov-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu2B6jJd4-SCQI67jVvsa2QAuMWc6DsjpfQg&usqp=CAU" alt="Warm welcome" class="hov-img-bottom img-fluid">
+                        <div class="hov-img-top hov-img-slideup">
+                            <div class="hov-img-text">
+                                <h5>Warm welcome</h5>
+                                <p>It had separate tables, a menu, and specialized in soups made with a base of meat and eggs, which were said to be restaurants or, in English "restoratives".</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hov-img">
+                        <img src="https://www.beartai.com/wp-content/uploads/2017/05/%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%95%E0%B9%89%E0%B8%B3%E0%B8%A2%E0%B8%B3-1.jpg" alt="Delicious meals" class="hov-img-bottom img-fluid">
+                        <div class="hov-img-top hov-img-slideup">
+                            <div class="hov-img-text">
+                                <h5>Delicious meals</h5>
+                                <p> In about 1765 a new kind of eating establishment, called a "Bouillon", was opened on rue des Poulies, near the Louvre, by a man named Boulanger.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hov-img">
+                        <img src="https://res.cloudinary.com/dbte0ueti/image/upload/v1536951746/new/professional_staff.jpg" alt="Professional staff" class="hov-img-bottom img-fluid">
+                        <div class="hov-img-top hov-img-slideup">
+                            <div class="hov-img-text">
+                                <h5>Professional staff</h5>
+                                <p>For centuries Paris had taverns which served food at large common tables, but they were notoriously crowded, noisy, not very clean, and served food of dubious quality.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-sm-7">
+                    <div class="row ">
+                        <div class="restaurant-history slideanim text-center">
+                            <h3 class="section-heading">Se Restaurant </h3>
+                            <p class="about-history first">อาหารไทยเป็นอาหารที่นิยมและแพร่หลายไปทั่วโลก ชาวต่างชาติในแต่ละทวีปทั่วโลกต่างติดในรสชาติของอาหารไทยซึ่งเป็นที่ทราบกันอยู่แล้วว่าอาหารไทยเป็นที่นิยมของผู้คนจริงๆ เนื่องด้วยรสชาติที่เป็นสากลการปรุงอย่างพิถีพิถัน นอกจากรสชาติที่เป็นที่นิยมไปทั่วโลกแล้ว อาหารไทยยังแบ่งออกเป็นอาหารแต่ละภาค ซึ่งรสชาติ และลักษณะของอาหารก็จะแตกต่างกันไปตามแหล่งที่อยู่ แต่ทุกภาคล้วนแต่มีความอร่อยไม่แพ้กัน
+                                นอกจากอาหารแต่ละภาคซึ่งเป็นเอกลักษณ์ของแต่ละที่แล้วรสชาติก็จะแตกต่างกันไปตามภูมิภาคด้วย จึงทำให้อาหารไทยจึงมีความโดดเด่นและเป็นที่รูจักไปทั่วโลก ทำให้เป็นที่ถูกปากของคนไทยและชาวต่างชาติ ไม่พอแต่อาหารไทย อีกทั้งยังมีของคาวและของหวานอันแสนอร่อยรวมถึงเครื่องดื่มที่ทางเราขอแนะนำร้าน se</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-menu bg-section" id="menu">
+        <div class="container-fluid">
+            <h1 class="container-h1">เมนู</h1>
+            <div class="row">
+
+                <!-- Nav pills -->
+                <ul class="nav nav-pills" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="pill" href="#breakfast">อาหารคาว</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#dessert">อาหารหวาน</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#salads">อาหารว่าง</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="pill" href="#drinks">เครื่องดื่ม</a>
+                    </li>
+                </ul>
+
+                <!-- อาหารคาว -->
+                <div class="tab-content slideanim">
+                    <div id="breakfast" class="tab-pane fade show active">
+                        <div class="row">
+                            <div class="col-sm-7">
+                                <ul class="list-group">
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">แกงมัสมั่น<span class="badge pull-right">160 บาท</span></h4>
+                                        <p class="list-group-item-text">ตำรับไทยนั้นต้องมีทั้งรสชาติหวาน เค็ม และเปรี้ยว ที่เรียกว่าเปรี้ยวปลายลิ้น ทั้งสามรสนั้นจะต้องพอดีกัน น้ำหอม อร่อยกลมกลม เมื่อแกงออกมามีลักษณะน้ำแกงขลุกขลิก และมีมันหัวกะทิลอยอยู่หน้าแกง</p>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">ไข่พะโล้<span class="badge pull-right">175 บาท</span></h4>
+                                        <p class="list-group-item-text">คนไทยได้ประยุกต์ลดเครื่องเทศจากจีน เหลือไม่กี่ชนิด และมักทำพะโล้ที่ออกหวานเค็มมากกว่า โดยคงส่วนประกอบอื่น ๆ อย่าง อบเชย กานพลู ดอกโป๊ยกั๊ก เติมด้วยรากผักชี ใส่หอม กระเทียม กระวาน เพื่อให้มีรสชาติเข้าถึงเครื่องเทศได้หอมอร่อย</p>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">ต้มข่าไก่<span class="badge pull-right">180 บาท</span></h4>
+                                        <p class="list-group-item-text">ต้มข่าไก่เป็นซุปเข้มข้นด้วยส่วนผสมของน้ำกะทิ มีส่วนประกอบ อาทิ กะทิสด ตะไคร้ ข่า น้ำมะนาว น้ำปลา พริก ใบมะกรูด และผักชี</p>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">แกงไก่ใส่หน่อไม้<span class="badge pull-right">185 บาท</span></h4>
+                                        <p class="list-group-item-text">อาหารประเภทแกงของภาคอีสาน มักเป็นแกงแบบน้ำน้อยมีผักมาก มีรสชาติไปทางเผ็ด เค็ม และเปรี้ยว มีปลาร้าเป็นเครื่องปรุงสำคัญ แกงไก่หน่อไม้ดองเป็นอาหารที่นิยมทำบ่อยๆ เป็นการแกงหน่อไม้ดองซึ่งเป็นภูมิปัญญาการถนอมอาหารไว้รับประทานในยามแล้ง ซึ่งลำบากในการหาผักสดมาปรุงอาหาร</p>
+                                    </li>
+
+                                    <button type="button" class="btn more" id="more" data-toggle="collapse" data-target="#demo">เพิ่มเติม</button>
+                                    <div id="demo" class="collapse">
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-headingg">ต้มยำกุ้ง<span class="badge pull-right">190 บาท</span></h4>
+                                        <p class="list-group-item-text">เป็นที่นิยมรับประทานไปทุกภาคในประเทศไทย เป็นอาหารที่รับประทานกับข้าวและ มีรสเปรี้ยวและเผ็ดเป็นหลักผสมเค็มและหวานเล็กน้อย</p>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-headingg">กุ้งแม่น้ำเผา<span class="badge pull-right">200 บาท</span></h4>
+                                        <p class="list-group-item-text">“กุ้งแม่น้ำเผา” ซึ่งจับได้ในแม่น้ำเจ้าพระยา กุ้งแม่น้ำที่จับได้จะมีขนาดใหญ่เป็นพิเศษ เนื่องด้วยความอุดมสมบูรณ์ในแม่น้ำนั่นเอง  หากหิวท้องเมื่อไรก็สามารถตระเวนหากินได้ตามร้านอาหารที่เรียงรายอยู่ตามริมแม่น้ำในเกาะเมือง กินกุ้งเผาตัวโตๆ พร้อมนั่งชมวิวริมแม่น้ำมันจะอร่อยขนาดไหน ไปลองกันได้</p>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">แกงส้ม<span class="badge pull-right">180 บาท</span></h4>
+                                        <p class="list-group-item-text">เป็นอาหารไทย ประเภทแกง ที่ครบรสโดย มีรสเปรี้ยวนำ ตามด้วยเผ็ด หวาน เค็ม ใส่น้ำพริกแกงส้ม ผัก และ เนื้อสัตว์</p>
+                                    </li>
+
+                                        <li class="list-group-item">
+                                            <h4 class="list-group-item-heading">หอยแมลงภู่อบใบโหระพา<span class="badge pull-right">100 บาท</span></h4>
+                                            <p class="list-group-item-text">สายอาหารทะเลต้องหลงรักแน่นอนกับเมนูหอยแมลงภู่สดเด้งอย่าง “หอยแมลงภู่อบใบโหระพา” </p>
+                                        </li>
+
+                                        <li class="list-group-item">
+                                            <h4 class="list-group-item-heading">ยำ 3 ไข่<span class="badge pull-right">100 บาท</span></h4>
+                                            <p class="list-group-item-text">เอาใจคนรักเมนูยำด้วยการทำ “ยำ 3 ไข่” ไข่ปูม้า ไข่ปลาริวกิว และไข่ปลาหมึกสด ๆ เคล้าน้ำยำรสเด็ดถึงเครื่อง ที่ใครได้เห็นเป็นน้ำลายสอทุกราย</p>
+                                        </li>
+
+                                        <li class="list-group-item">
+                                            <h4 class="list-group-item-heading">ส้มตำปูม้าปลาร้าปลาหมึก<span class="badge pull-right">60 บาท</span></h4>
+                                            <p class="list-group-item-text">พบกับ “ส้มตำปูม้าปลาร้าปลาหมีก” เมนูอาหารอีสานรสแซ่บ สะแด่วลิ้น ที่ขนกันมาทั้งปูม้า และปลาหมึกชิ้นโต รับรองแซ่บซี้ดฟินไปถึงกระพุ้งแก้ม </p>
+                                        </li>
+
+                                    </div>
+                                </ul>
+                            </div>
+
+
+                            <!----รูปอาหารคาว------>
+                            <div class="col-sm-5">
+                                <h3>อาหารคาว</h3>
+                                <div class="right-cover">
+                                    <div id="slider">
+
+                                        <div id="headerSlider" class="carousel slide" data-ride="carousel">
+                                            <ol class="carousel-indicators">
+                                                <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
+                                                <li data-target="#headerSlider" data-slide-to="1"></li>
+                                                <li data-target="#headerSlider" data-slide-to="2"></li>
+                                                <li data-target="#headerSlider" data-slide-to="3"></li>
+                                                <li data-target="#headerSlider" data-slide-to="4"></li>
+                                                <li data-target="#headerSlider" data-slide-to="5"></li>
+                                                <li data-target="#headerSlider" data-slide-to="6"></li>
+
+                                            </ol>
+
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="https://i.pinimg.com/564x/31/1f/45/311f45fb7af63d2d3e5cff89c4c5069e.jpg" class="menu-img img-fluid" alt="brekfast-img" width=502 height=754 >
+
+                                                </div>
+
+                                                <div class="carousel-item">
+                                                    <img src="https://i.pinimg.com/564x/ad/8a/f8/ad8af8dc6561fdf3527181706dd46de2.jpg" class="menu-img img-fluid" alt="brekfast-img" width=502 height=754 >
+                                                </div>
+
+                                                <div class="carousel-item">
+                                                    <img src="https://i.pinimg.com/564x/74/b3/ad/74b3ad4f7e9687e9b7c77d99b9a5d505.jpg" class="menu-img img-fluid"  alt="brekfast-img" width=502 height=754 >
+                                                </div>
+
+                                                <div class="carousel-item">
+                                                    <img src="https://i.pinimg.com/564x/a5/90/8d/a5908d1d7ec432783289949848b2610a.jpg" class="menu-img img-fluid"  alt="brekfast-img" width=502 height=754 >
+                                                </div>
+
+                                                <div class="carousel-item">
+                                                    <img src="https://i2.wp.com/www.gastrosenses.com/wp-content/uploads/2016/01/Thai-Shrimp-Noodle-Soup-10.jpg?w=1400&quality=100&strip=all&ssl=1" class="menu-img img-fluid"  alt="brekfast-img" width=502 height=754 >
+                                                </div>
+
+                                                <div class="carousel-item">
+                                                    <img src="https://i.pinimg.com/564x/8b/80/d8/8b80d8ec8a75e8837b98731efaacbc7f.jpg" class="menu-img img-fluid"  alt="brekfast-img" width=502 height=754 >
+                                                </div>
+
+                                                <div class="carousel-item">
+                                                    <img src="https://i.pinimg.com/564x/c1/92/b7/c192b7ebad28bb54ffbd36c4e4cf7a4a.jpg" class="menu-img img-fluid"  alt="brekfast-img" width=502 height=754 >
+                                                </div>
+
+                                            </div>
+
+                                            <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+
+                                            <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+
+                                            <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+
+                                            <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+
+                                            <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+
+                                            <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!------อาหารหวาน------->
+                    <div id="dessert" class="tab-pane fade">
+                        <div class="row">
+                            <div class="col-sm-7">
+                                <ul class="list-group">
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">ข้าวเหนียวมะม่วง <span class="badge pull-right">125 บาท</span></h4>
+                                        <p class="list-group-item-text">เป็นขนมหวานไทยยอดนิยมและจะได้รับความนิยมมากเป็นพิเศษในฤดูร้อน ทำจากข้าวเหนียว เช่น ข้าวเหนียวเขี้ยวงู มูนกับหัวกะทิ เกลือป่น และน้ำตาลทรายขาว แล้วกินกับเนื้อมะม่วงสุก ที่นิยมคือ มะม่วงอกร่อง และมะม่วงน้ำดอกไม้ อาจราดกะทิ และโรยถั่วบางชนิด แล้วแต่ชอบใจ</p>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">ขนมชั้น <span class="badge pull-right">60 บาท</span></h4>
+                                        <p class="list-group-item-text">เป็นขนมไทยโบราณที่ใช้ในงานพิธีมงคล โดยมีความเชื่อว่าจะต้องหยอดขนมให้ได้ 9 ชั้น จึงจะเป็นศิริมงคลเจริญก้าวหน้าแก่เจ้าภาพสีที่พบบ่อยคือ สีเขียวจากใบเตยและสีน้ำเงินจากดอกอัญชัน</p>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">ข้าวเหนียวเปียกข้าวโพด <span class="badge pull-right">70 บาท</span></h4>
+                                        <p class="list-group-item-text">ความพิเศษคือข้าวเหนียวใส่น้ำเชื่อมใบเตยกลิ่นหอม มาพร้อมข้าวโพดสีเหลือง</p>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">บัวลอย <span class="badge pull-right">50 บาท</span></h4>
+                                        <p class="list-group-item-text">เนื้อเหนียวๆ สีสันสดใส กินกับน้ำกะทิหอมๆ มาพร้อมไข่หวาน กินตอนร้อนๆทำให้สดชื่น</p>
+                                    </li>
+
+                                    <button type="button" class="btn more" id="more" data-toggle="collapse" data-target="#demo">เพิ่มเติม</button>
+                                    <div id="demo" class="collapse">
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">ทับทิมกรอบ <span class="badge pull-right">60 บาท</span></h4>
+                                        <p class="list-group-item-text">เป็นขนมไทยที่สามารถรับประทานได้ทุกฤดูกาล นิยมมากที่สุดในฤดูร้อน รับประทานแล้วหอมหวานเย็นอร่อยชื่นใจคลายร้อนได้ดี</p>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">ขนมเล็บมือนาง<span class="badge pull-right">65 บาท</span></h4>
+                                        <p class="list-group-item-text">ขนมไทยโบราณอีกชนิดหนึ่งเวลารับประทานจะได้กลิ่นหอม ๆ ของงา. ตัวขนมจะมีความเหนียวนุ่ม หวานมันจากกะทิสด   นิยมทำแค่ 3 สีคือสีขาว เขียว และชมพู. ลักษณะตัวขนมจะเรียวแหลมคล้ายเล็บมือนาง</p>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">ขนมครก<span class="badge pull-right">50 บาท</span></h4>
+                                        <p class="list-group-item-text">เป็นขนมที่อยู่คู่กับไทยเรามาช้านาน เป็นขนมที่อร่อย รสชาติหวานมัน กลมกล่อม มีกลิ่นหอมเป็นเอกลักษณ์เฉพาะตัว</p>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">ขนมจ่ามงกุฎ <span class="badge pull-right">50 บาท</span></h4>
+                                        <p class="list-group-item-text">เป็นชื่อขนมไทยชนิดหนึ่ง มีลักษณะคล้ายกะละแมสีขาว ไม่ใส่สี ทำจากแป้งข้าวเจ้าหรือแป้งข้าวเหนียวนวดผสมกับแป้งถั่วเขียว นำไปกวนกับกะทิและน้ำตาลทรายขาวจนเหนียว โรยเมล็ดถั่วลิสงคั่วซอยหรือเมล็ดแตงโมกะเทาะเปลือกเป็นไส้ในตัวขนม จากนั้นตัดขนมเป็นก้อนพอคำ ห่อด้วยตองกล้วยเพสลาด ที่นาบไว้แล้ว</p>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">ขนมถ้วย <span class="badge pull-right">50 บาท</span></h4>
+                                        <p class="list-group-item-text">ขนมถ้วย หรือ ขนมถ้วยตะไล เป็นขนมไทยที่ทำจากแป้งข้าวเจ้า กะทิ และน้ำตาล นึ่งในถ้วยตะไลซึ่งเป็นถ้วยกระเบื้องเล็ก ๆ ชนิดหนึ่ง ใส่ใบเตยและราดด้วยน้ำกะทิอีกครั้ง บางครั้งอาจผสมเกลือหรือใข่</p>
+                                    </li>
+
+                                        <li class="list-group-item">
+                                            <h4 class="list-group-item-heading">ข้าวต้มมัด<span class="badge pull-right">40 บาท</span></h4>
+                                            <p class="list-group-item-text">" ข้าวต้มมัด " เป็นอีกหนึ่งเมนูขนมไทย ที่มัดใจ ได้ดี ทั้งเด็ก ผู้ใหญ่ ทุกเพศทุกวัย เลยคะ หอม มัน หวาน ตัดเค็ม เหนียวหนึบหนับ มันดับเบิ้ลด้วยถั่วดำ โอ้ยfin </p>
+                                        </li>
+
+                                    </div>
+                                </ul>
+                            </div>
+
+                            <!------รูปอาหารหวาน-------->
+                            <div class="col-sm-5">
+                                <h3>อาหารหวาน</h3>
+
+                                <div class="right-cover">
+                                    <div id="slider1">
+
+                                        <div id="headerSlider1" class="carousel slide" data-ride="carousel">
+                                            <ol class="carousel-indicators">
+                                                <li data-target="#headerSlider1" data-slide-to="0" class="active"></li>
+                                                <li data-target="#headerSlider1" data-slide-to="1"></li>
+                                                <li data-target="#headerSlide1r" data-slide-to="2"></li>
+                                                <li data-target="#headerSlider1" data-slide-to="3"></li>
+                                                <li data-target="#headerSlider1" data-slide-to="4"></li>
+
+                                            </ol>
+
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="https://i.pinimg.com/564x/62/fe/a9/62fea9d69b255bb2bdb36d459f53e5bc.jpg" class="menu-img img-fluid" alt="brekfast-img" width=502 height=754 >
+
+                                                </div>
+
+                                                <div class="carousel-item">
+                                                    <img src="https://i.pinimg.com/564x/b4/f3/29/b4f32982c3460d88ffc89a076aa37acf.jpg" class="menu-img img-fluid" alt="brekfast-img" width=502 height=754 >
+                                                </div>
+
+                                                <div class="carousel-item">
+                                                    <img src="https://i.pinimg.com/564x/79/6a/5d/796a5dd32101a14f73612e06505d2a49.jpg" class="menu-img img-fluid" alt="brekfast-img" width=502 height=754 >
+                                                </div>
+
+
+                                            <div class="carousel-item">
+                                                <img src="https://i.pinimg.com/564x/76/13/45/761345632b4a693da7b1eb8261d2dc48.jpg" class="menu-img img-fluid" alt="brekfast-img" width=502 height=754 >
+                                            </div>
+
+
+                                        <div class="carousel-item">
+                                            <img src="https://i.pinimg.com/originals/80/39/f3/8039f321ef4873fd6e67fb9d90ce99c9.jpg" class="menu-img img-fluid" alt="brekfast-img" width=502 height=754 >
+                                        </div>
+                                    </div>
+
+
+                                    <a class="carousel-control-prev" href="#headerSlider1" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+
+                                    <a class="carousel-control-next" href="#headerSlider1" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+                                    <a class="carousel-control-next" href="#headerSlider1" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+                                    <a class="carousel-control-next" href="#headerSlide1" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-------อาหารทางเล่น------>
+                    <div id="salads" class="tab-pane fade">
+                        <div class="row">
+                            <div class="col-sm-7">
+                                <ul class="list-group">
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">หมูโสร่ง<span class="badge pull-right">80 บาท</span></h4>
+                                        <p class="list-group-item-text">เป็นเมนูอาหารว่างแบบไทยโบราณที่สมัยนี้น้อยคนจะรู้จัก ลักษณะเป็นหมูบดละเอียดที่นำมาผสมเครื่องปรุงรสแล้วปั้นเป็นก้อนกลม จากนั้นก็ทำการนุ่งโสร่งด้วยการพันด้วยเส้นหมี่ซั่ว จนออกมาหน้าตาคล้ายกับลูกตระกร้อ แล้วก็นำไปทอดจนเหลืองกรอบ ส่งกลิ่นหอมน่าทาน เป็นเมนูที่คนชอบของทอดจะต้องปลื้มเหมือนคุณพี่ขุนแน่นอนค่ะ</p>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">เมี่ยงคำ<span class="badge pull-right">90 บาท</span></h4>
+                                        <p class="list-group-item-text">เป็นอาหารว่างชนิดหนึ่งที่มีคุณค่าทางสมุนไพรสูงเพราะมีคุณสมบัติในการบำรุงรักษาธาตุทั้ง 4 เพื่อให้สมดุลกัน</p>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">ล่าเตียง<span class="badge pull-right">95 บาท</span></h4>
+                                        <p class="list-group-item-text">อาหารชนิดนี้มีอยู่ในบทพระราชนิพนธ์กาพย์เห่ชมเครื่องคาวหวาน และหรุ่ม ก็ยังได้ถูกกล่าวถึงในหนังสือแม่ครัวหัวป่าก์</p>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">กระทงทอง<span class="badge pull-right">110 บาท</span></h4>
+                                        <p class="list-group-item-text">เป็นอาหารว่างที่จัดขึ้นโต๊ะได้อย่างไม่อายใคร เนื่องจากมีรูปร่างและสีสันที่น่ากิน ลักษณะพอดีคำ กินได้ทั้งเด็กและผู้ใหญ่เพราะมีรสชาติกลางๆ ตัวไส้สามารถดัดแปลงนำผักหลายๆ ชนิดมาใส่ได้ </p>
+                                    </li>
+
+
+                                    <button type="button" class="btn more" id="more" data-toggle="collapse" data-target="#demo">เพิ่มเติม</button>
+                                    <div id="demo" class="collapse">
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">ปอเปี๊ยะทอด<span class="badge pull-right">80 บาท</span></h4>
+                                        <p class="list-group-item-text">เป็นอาหารเวียดนามที่คนไทยนิยมกินกัน แผ่นแป้งปอเปี๊ยะทำจากแป้งข้าวเจ้าซึ่งเป็นแผ่นแป้งที่มีชื่อเสียงของเวียดนาม ปอเปี๊ยะมีทั้งชนิดสดและทอด จัดเป็นของกินเล่นหรือของว่างที่กินได้เกือบตลอดวัน</p>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">ขนมช่อม่วง<span class="badge pull-right">60 บาท</span></h4>
+                                        <p class="list-group-item-text">จัดเป็นอาหารว่างของคนไทยตั้งแต่โบราณ มีมาตั้งแต่สมัยรัชกาลที่ 2 พระบาทสมเด็จพระพุทธเลิศหล้านภาลัย เป็นขนมที่ต้องใช้ความประณีตในการจับจีบตัวแป้ง หลังการห่อหุ้มไส้แล้วให้มีลักษณะเป็นรูปดอกไม้ ทำให้มีลักษณะขนมที่ดูนุ่มนวล อ่อนหวาน แฝงความมีศิลปะของขนมไทยชาววัง</p>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">สาคูไส้หมู<span class="badge pull-right">50 บาท</span></h4>
+                                        <p class="list-group-item-text">เป็นเมนูอาหารว่างทานเล่น สุดแสนอร่อย เป็นที่โปรดปรานของหลายท่าน สาคูเหนียวนุ่ม รสชาติกลมกล่อมหอมอร่อย โรยด้วยกระเทียมเจียวหอมๆ รับประทานเคียงกับผักสดต่างๆ หลายชนิด ผักชี ผักกาดหอม พริกขี้หนู หอมอร่อยเข้ากัน รสชาติเข้มข้นจัดจ้าน</p>
+                                    </li>
+
+                                        <li class="list-group-item">
+                                            <h4 class="list-group-item-heading">ทาร์ตแอปเปิ้ล<span class="badge pull-right">140 บาท</span></h4>
+                                            <p class="list-group-item-text">เมื่อแป้งทาร์ตที่ไม่ต้องง้อเนยจะเป็นอย่างไรกับเมนู “ทาร์ตแอปเปิ้ล” เมนูขนมหวานซ่อนเปรี้ยว ยิ่งกินยิ่งเพลินพร้อมเป็นมิตรต่อสุขภาพไม่ว่าใครก็อดใจไม่ไหว</p>
+                                        </li>
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">น้ำเเข็งใส<span class="badge pull-right">40 บาท</span></h4>
+                                        <p class="list-group-item-text">อาหารว่างชนิดหนึ่ง ที่ใช้น้ำแข็งก้อนใหญ่ไสจนเป็นเกล็ด แล้วอัดลงในถ้วยให้เป็นแท่ง ราดด้วยน้ำหวาน รวมไปถึงการนำมาผสมปรับปรุงรับประทานพร้อมกับขนมอื่น ๆ อาทิ ลอดช่อง เผือก ลูกชิด ซ่าหริ่ม ทับทิมกรอบ ฟักทองเชื่อม เฉาก๊วย ข้าวโพด ถั่วแดง ลูกชิด ลูกบัว วุ้น ขนมปังหั่นก้อน</p>
+                                    </li>
+
+                                    </div>
+                                </ul>
+                            </div>
+
+                            <!------รูปอาหารว่าง----->
+                            <div class="col-sm-5">
+                                <h3>อาหารว่าง</h3>
+
+                                <div class="right-cover">
+                                    <div id="slider1">
+
+                                        <div id="headerSlider1" class="carousel slide" data-ride="carousel">
+                                            <ol class="carousel-indicators">
+                                                <li data-target="#headerSlider1" data-slide-to="0" class="active"></li>
+                                                <li data-target="#headerSlider1" data-slide-to="1"></li>
+                                                <li data-target="#headerSlide1r" data-slide-to="2"></li>
+                                                <li data-target="#headerSlider1" data-slide-to="3"></li>
+                                                <li data-target="#headerSlider1" data-slide-to="4"></li>
+                                                <li data-target="#headerSlider1" data-slide-to="5"></li>
+
+                                            </ol>
+
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="https://scontent.fbkk6-1.fna.fbcdn.net/v/t1.0-9/29573214_1883730378313412_3108269589813809905_n.jpg?_nc_cat=111&ccb=2&_nc_sid=8bfeb9&_nc_eui2=AeH5_7DUq3ghsE1yE4wg5D47Q2zBI2e08INDbMEjZ7Twg3pxU89hzo8hh0Asa9egG4VePhVhWP5Ff6s47S41brLM&_nc_ohc=EiTujiIrPmYAX_Mw9V7&_nc_ht=scontent.fbkk6-1.fna&oh=a45e42afe1b1660b3a5e4fe7f68c296e&oe=5FE1DB04" class="menu-img img-fluid" alt="brekfast-img" width=502 height=754 >
+
+                                                </div>
+
+                                                <div class="carousel-item">
+                                                    <img src="https://images.coplusk.net/project_images/172011/image/101233_2F2014-04-25-134532-Leaf%2BWrapped%2BSalad%2Bbites.jpg" class="menu-img img-fluid" alt="brekfast-img" width=502 height=754 >
+                                                </div>
+
+                                                <div class="carousel-item">
+                                                    <img src="https://i.pinimg.com/564x/50/88/44/50884418cb85f90de8343102f550a792.jpg" class="menu-img img-fluid" alt="brekfast-img" width=502 height=754 >
+                                                </div>
+
+
+                                                <div class="carousel-item">
+                                                    <img src="https://i.pinimg.com/564x/a4/6b/e8/a46be8c243eb1784ee8a390b1e1bd43b.jpg" class="menu-img img-fluid" alt="brekfast-img" width=502 height=754 >
+                                                </div>
+
+
+                                                <div class="carousel-item">
+                                                    <img src="https://i.pinimg.com/564x/88/25/bd/8825bd7e44932400c20a891ef15b39ab.jpg" class="menu-img img-fluid" alt="brekfast-img" width=502 height=754 >
+                                                </div>
+
+                                                <div class="carousel-item">
+                                                    <img src="https://i.pinimg.com/564x/1f/08/ca/1f08cab5e495cecbe33bf65bf860a59d.jpg" class="menu-img img-fluid" alt="brekfast-img" width=502 height=754 >
+                                                </div>
+
+                                            </div>
+
+                                            <a class="carousel-control-prev" href="#headerSlider1" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+
+                                            <a class="carousel-control-next" href="#headerSlider1" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+
+                                            <a class="carousel-control-next" href="#headerSlider1" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+
+                                            <a class="carousel-control-next" href="#headerSlide1" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+
+                                            <a class="carousel-control-next" href="#headerSlide1" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!---------เครื่องดื่ม------>
+                    <div id="drinks" class="tab-pane fade">
+                        <div class="row">
+                            <div class="col-sm-7">
+                                <ul class="list-group">
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">น้ำอัญชันนม<span class="badge pull-right"> 40 บาท</span></h4>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">ชาไทย<span class="badge pull-right"> 40 บาท</span></h4>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">น้ำมะนาว<span class="badge pull-right"> 40 บาท</span></h4>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">น้ำส้ม<span class="badge pull-right"> 40 บาท</span></h4>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">ชาเขียว<span class="badge pull-right">50 บาท</span></h4>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">ชามะลิ<span class="badge pull-right">50 บาท</span></h4>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">โกโก้ <span class="badge pull-right">50 บาท</span></h4>
+                                    </li>
+
+                                    <li class="list-group-item">
+                                        <h4 class="list-group-item-heading">น้ำแอปเปิล<span class="badge pull-right">60 บาท</span></h4>
+                                    </li>
+
+
+                                    <button type="button" class="btn more" id="more" data-toggle="collapse" data-target="#demo">เพิ่มเติม</button>
+                                        <div id="demo" class="collapse">
+
+                                            <li class="list-group-item">
+                                                <h4 class="list-group-item-heading">น้ำสตอเบอร์รี่<span class="badge pull-right">70 บาท</span></h4>
+                                            </li>
+
+                                            <li class="list-group-item">
+                                                <h4 class="list-group-item-heading">นมสดสตรอว์เบอร์รี<span class="badge pull-right">80 บาท</span></h4>
+                                            </li>
+
+                                            <li class="list-group-item">
+                                                <h4 class="list-group-item-heading">คาปูชิโน<span class="badge pull-right">80 บาท</span></h4>
+                                            </li>
+
+                                            <li class="list-group-item">
+                                                <h4 class="list-group-item-heading">ดัลโกน่าคอฟฟี่<span class="badge pull-right">80 บาท</span></h4>
+                                            </li>
+
+                                            <li class="list-group-item">
+                                                <h4 class="list-group-item-heading">ลาเต้<span class="badge pull-right">80 บาท</span></h4>
+                                            </li>
+
+                                            <li class="list-group-item">
+                                                <h4 class="list-group-item-heading">มอคคา<span class="badge pull-right">80 บาท</span></h4>
+                                            </li>
+
+                                            <li class="list-group-item">
+                                                <h4 class="list-group-item-heading">น้ำเปล่า<span class="badge pull-right">10 บาท</span></h4>
+                                            </li>
+
+
+                                        </div>
+
+                                </ul>
+                            </div>
+
+                            <!--------รูปเครื่องดื่ม------->
+                            <div class="col-sm-5">
+                                    <h3>เครื่องดื่ม</h3>
+                                <div class="right-cover">
+                                    <div id="slider1">
+
+                                        <div id="headerSlider1" class="carousel slide" data-ride="carousel">
+                                            <ol class="carousel-indicators">
+                                                <li data-target="#headerSlider1" data-slide-to="0" class="active"></li>
+                                                <li data-target="#headerSlider1" data-slide-to="1"></li>
+                                                <li data-target="#headerSlide1r" data-slide-to="2"></li>
+                                                <li data-target="#headerSlider1" data-slide-to="3"></li>
+                                                <li data-target="#headerSlider1" data-slide-to="4"></li>
+
+                                            </ol>
+
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="https://i.pinimg.com/564x/37/d4/e8/37d4e830021eee016f26da0593edac0a.jpg" class="menu-img img-fluid" alt="brekfast-img" width=502 height=754 >
+
+                                                </div>
+
+                                                <div class="carousel-item">
+                                                    <img src="https://i.pinimg.com/564x/2b/41/f4/2b41f432e2028ec055d82095fd97d2c6.jpg" class="menu-img img-fluid" alt="brekfast-img" width=502 height=754 >
+                                                </div>
+
+                                                <div class="carousel-item">
+                                                    <img src="https://i.pinimg.com/564x/94/75/c9/9475c9e4cb78b6d9654e2c8ae0a2a342.jpg" class="menu-img img-fluid" alt="brekfast-img" width=502 height=754 >
+                                                </div>
+
+                                                <div class="carousel-item">
+                                                    <img src="https://static.trueplookpanya.com/tppy/member/m_572500_575000/572935/cms/images/44a47287267fc95d64f70b7bc2f576e3.jpg" class="menu-img img-fluid" alt="brekfast-img" width=502 height=754 >
+                                                </div>
+
+                                                <div class="carousel-item">
+                                                    <img src="https://cache.gmo2.sistacafe.com/images/uploads/content_image/image/622337/1524047701-a7fb5858685eb8ecf42309e00766a5f3.jpg" class="menu-img img-fluid" alt="brekfast-img" width=502 height=754 >
+                                                </div>
+                                            </div>
+
+
+                                            <a class="carousel-control-prev" href="#headerSlider1" role="button" data-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+
+                                            <a class="carousel-control-next" href="#headerSlider1" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+
+                                            <a class="carousel-control-next" href="#headerSlider1" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+
+                                            <a class="carousel-control-next" href="#headerSlide1" role="button" data-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+    <!------staff-------->
+    <section class="bg-staff" id="staff">
+        <div class="container-fluid">
+            <h3>Our staff</h3>
+            <hr class="hr-h3s">
+            <div class="row text-center slideanim thumbnail-row">
+                <div class="col-sm-3">
+                    <div class="staff">
+                        <img src="https://s.isanook.com/hi/0/ud/285/1427417/1427417-20170622120006-19fa16b.jpg" class="" alt="chef-img" style="width:170px; height: 170px">
+                        <h5 class="">ผู้จัดการสมิท</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="staff">
+                        <img src="https://s.isanook.com/hi/0/ud/285/1427417/1427417-20170622120005-41032e6.jpg" class="" alt="chef-img" style="width:170px; height: 170px">
+                        <h5 class="">เชฟจ๋า</h5>
+
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="staff">
+                        <img src="https://i.pinimg.com/originals/e8/58/e5/e858e5fe946afc7fef0064d7f824746e.png" class="" alt="chef-img" style="width:170px; height: 170px">
+                        <h5 class="">เชฟเจ</h5>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="staff">
+                        <img src="https://i.pinimg.com/originals/0a/ff/af/0affaf332e71ae81a9a85b17521fad7d.png" class="" alt="chef-img" style="width:170px; height: 170px">
+                        <h5 class="">เชฟแจง</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-contact bg-section" id="contact">
+        <div class="container-fluid">
+            <h1 class="container-h1">Contact us</h1>
+            <div class="row slideanim">
+                <div class="col-md-6 col-sm-6 contact-left">
+                    <div class="left-box">
+                        <address class="contact">
+                            <span class="span-contact">Call:</span>
+                            <br>
+                            +022 467 136
+                            <br>
+                            <span class="span-contact">Email:</span>
+                            <br>
+                            SeRestaurant@gmail.com
+                            <br>
+                            <span class="span-contact">Visit:</span>
+                            <br>
+                            1 ซอย ฉลองกรุง 1 แขวง ลาดกระบัง
+                            <br>
+                            เขตลาดกระบัง กรุงเทพมหานคร 10520
+                        </address>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 contact-right" >
+
+                    <form novalidate action="mailto:SeRestaurant@gmail.com" name="frm" method="post">
+                        <div class="form-group has-feedback">
+                            <label class="sr-only">Full name:</label>
+                            <input type="text" name="name" class="form-control" placeholder="Full name" required>
+
+                        </div>
+
+                        <div class="form-group has-feedback">
+                            <label class="sr-only">Phone number:</label>
+                            <input type="text" name="tel" class="form-control"  placeholder="Phone number" required>
+
+                        </div>
+                        <div class="form-group">
+                            <label class="sr-only" name="comment" for="comment">Comment:</label>
+                            <textarea class="form-control" rows="5" id="comment" placeholder="Description"></textarea>
+                        </div>
+                        <div class="contact-buttons pull-left">
+                            <input type="submit" name="submit"  value="Send" />
+                            <input type="reset" value="Reset" />
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+            <div class="row">
+                <div id="googleMap" style="height:300px;width:100%;"></div>
+
+                <!-- Add Google Maps -->
+                <script src="http://maps.googleapis.com/maps/api/js"></script>
+                <script>
+                var myCenter = new google.maps.LatLng(13.7298295,100.7792206);
+
+                function initialize() {
+                var mapProp = {
+                  center:myCenter,
+                  zoom:12,
+                  scrollwheel:false,
+                  draggable:false,
+                  mapTypeId:google.maps.MapTypeId.ROADMAP
+                  };
+
+                var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+                var marker = new google.maps.Marker({
+                  position:myCenter,
+                  });
+
+                marker.setMap(map);
+                }
+
+                google.maps.event.addDomListener(window, 'load', initialize);
+                </script>
+            </div>
+        </div>
+    </section>
+
+    <footer class="-bg-footer" id="footer">
+        <div class="container-fluid">
+            <div class="row footer-align">
+
+                <div class="col-md-4 col-sm-4">
+                    <h5>ช่องทางติดต่อ</h5>
+                    <hr class="hr-foot">
+                    <div class="footer-items">
+                        <address>
+                            1 ซอย ฉลองกรุง 1 แขวง ลาดกระบัง
+                            <br>
+                            เขตลาดกระบัง กรุงเทพมหานคร 10520
+                            <br>
+                            <i class="fa fa-phone address"></i> +022 467 136
+                            <br>
+                            <i class="fa fa-envelope address"></i> <a href="mailto:SeRestaurant@gmail.com">SeRestaurant@gmail.com</a>
+                        </address>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <h5>เวลาเปิดปิดบริการร้าน</h5>
+                    <hr class="hr-foot">
+                    <div class="footer-items">
+                        <ul>
+                            <li>จันทร์-พฤหัสบดี   : 08:00-22:00</li>
+                            <li>ศุกร์-เสาร์       : 09:00-22:00</li>
+                            <li>หยุดวันอาทิตย์</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a class="to-top" href="#myPage" title="toTop">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script>
+    </script>
+    </div>
+    </body>

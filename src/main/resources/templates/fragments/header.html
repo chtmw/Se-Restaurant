@@ -1,0 +1,32 @@
+<header th:fragment="header" xmlns:th="http://www.w3.org/1999/xhtml">
+    <!-- Static navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" th:href="@{/home}">Se Restaurant</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end">
+            <ul class="navbar-nav" mi-auto>
+
+                <li class="nav-item">
+                    <a class="nav-link" th:href="@{/home}">Home</a>
+                </li>
+
+                <div class="btn-group">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Login
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" th:href="@{/customer}">Register</a>
+                        <a class="dropdown-item" th:href="@{/login}">Login</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" th:href="@{/home}">Logout</a>
+                    </div>
+                </div>
+
+            </ul>
+        </div>
+    </nav>
+</header>
+
