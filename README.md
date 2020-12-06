@@ -8,7 +8,17 @@
 * So that   : ได้เข้าถึงรายการอาหาร เครื่องดื่ม ราคาอาหาร สถานที่ตั้ง เพื่อเป็นการตัดสินใจในการเลือกร้านอาหารที่จะเข้าใช้บริการ 
 
 ### 2.2) วิธีการติดตั้งโปรแกรม
-> 1.download code  
+* 1.download code  
+* 2.show in folder
+* 3.Extract to Se-Restaurant-master\
+* 4.open intellij 
+* 5.open file ที่ชื่อว่า Se-Restaurant-master ขึ้นมา
+* 6.ทำการ run
+* 7.เมื่อ run เสร็จแล้ว เข้า google chrome http://localhost:2020/home ใช้งาน website ได้เลย
+
+
+
+-------------------------------------------------Thank You---------------------------------------------------------
 
 
 
