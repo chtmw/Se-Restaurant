@@ -28,7 +28,7 @@
 	   และมีรูปาพ ชื่อของบุคลากร เชฟ และ พนักงานในร้าน แผนที่ตั้งของร้าน ช่องทางติดต่อ และเวลาเปิดปิดบริการร้าน
 * 4.เมื่อต้องการออกจากระบบเว็บไซต์ สามารถกด Logout ที่ menu bar ด้านบนของหน้า Home จะออกจากระบบการใช้งานและไปยังหน้า Login  
 
-* 5. __UI flow / user journey__  https://drive.google.com/file/d/19c8eNPZW7J3R628yi53PW5jNwEzrCgrr/view
+* 5.__UI flow / user journey__  https://drive.google.com/file/d/19c8eNPZW7J3R628yi53PW5jNwEzrCgrr/view
 
 
 -------------------------------------------------------------Thank You----------------------------------------------------------
