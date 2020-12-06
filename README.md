@@ -12,8 +12,7 @@
 * 3.Extract to Se-Restaurant-master\ แยกออกมาเป็นโฟเดอร์ 
 * 4.open intellij 
 * 5.open file ที่ชื่อว่า Se-Restaurant-master ขึ้นมา
-* 6.ทำการ run
-* 7.เมื่อ run เสร็จแล้ว เข้า google chrome http://localhost:2020/home ใช้งาน website ได้เลย
+* 6.ทำการ run เมื่อ run เสร็จแล้ว เข้า google chrome http://localhost:2020/home สามารถใช้งาน website ได้เลย
 
 ### 2.3) วิธีการใช้งานสำหรับผู้ใช้งาน
 * 1.เมื่อเข้ามาใน website จะเข้าหน้า Home ได้นั้นจะต้องเป็นสมาชิกกับทางร้านของเราก่อน ดังนั้นจะขึ้นให้ Login  
