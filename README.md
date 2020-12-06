@@ -9,7 +9,7 @@
 ### 2.2) วิธีการติดตั้งโปรแกรม
 * 1.download code  
 * 2.show in folder ที่ได้download code มา
-* 3.Extract to Se-Restaurant-master\
+* 3.Extract to Se-Restaurant-master\ แยกออกมาเป็นโฟเดอร์ 
 * 4.open intellij 
 * 5.open file ที่ชื่อว่า Se-Restaurant-master ขึ้นมา
 * 6.ทำการ run
